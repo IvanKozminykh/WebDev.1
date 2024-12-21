@@ -155,6 +155,7 @@ p {
 /* Стили для Шапки */
 
 .header {
+  z-index: 1;
   display: flex;
   max-width: 1169px;
   margin: 0 auto;
@@ -504,6 +505,17 @@ p {
   display: flex;
   flex-direction: column;
   flex: 2;
+  min-width: 375px;
+}
+
+.Blog .Blog_Bottom .Blog_Left .text_left_back .text_left3 .dataset_left
+{
+  font-size: 12px;
+}
+
+.Blog .Blog_Bottom .Blog_Right .read_right
+{
+  font-size: 12px;
 }
 
 .Blog .Blog_Bottom .Blog_Left .blog_left_img{
@@ -517,7 +529,7 @@ p {
 }
 
 .Blog .Blog_Bottom .Blog_Left .text_left_back .text_left2{
-  padding-bottom: 11rem;
+  padding-bottom: 15rem;
 }
 
 .Blog .Blog_Bottom .Blog_Right{
@@ -565,6 +577,13 @@ p {
 .Last .Last_Button{
   padding: 0 32rem 11rem 32rem;
   /* border: 2px solid #fff; */
+}
+
+.Last .Last_End .Right_End .column .last_iteam
+{
+  font-family: "ManropeLight", sans-serif;
+  font-size: 12px;
+  color: #fff;
 }
 
 .Last .Last_Button .Last_Button1{
